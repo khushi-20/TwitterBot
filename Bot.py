@@ -2,8 +2,8 @@ import tweepy
 import time
 
 
-auth = tweepy.OAuthHandler('fYusfCC25u3aYahYbEBok6Cli','KSZvD4Q75YIPIFpnIIApKJa6EaCdNb02gQMjgEDAIEqYd9gSbD')
-auth.set_access_token('1177230960556855299-y0WyIxzpYwTwG83HpZyB69NzMPHS7r','K7VuxI5LIr96Pf2cGdwKqAgz7igISOT2KEHBjFAkM2904')
+auth = tweepy.OAuthHandler('','')
+auth.set_access_token('','')
 api = tweepy.API(auth, wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
 
 FILE_NAME = 'last_seen_id.txt'
